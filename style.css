@@ -676,7 +676,7 @@ footer {
 
 .footer-right i {
     font-size: 1.5vmax;
-    margin-right: 1vmax;
+    margin-right: 0.6vmax;
     cursor: pointer;
     text-shadow: 0 0 10px #707070;
 }
