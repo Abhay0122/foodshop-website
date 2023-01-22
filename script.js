@@ -1,9 +1,7 @@
+// images animation
 var tl = gsap.timeline({
     repeat: -1
 });
-
-
-
 
 
 tl.to(".imagecontainer", {
@@ -23,3 +21,16 @@ tl.to(".imagecontainer", {
         top: "-100%"
     }, 'a')
 
+
+// menu-icon
+
+const menuBtn = document.querySelector('.menu-btn');
+const menuOverlay = document.querySelector('.menu-overlay');
+const crossBtn = document.querySelector('.menu-overlay>i');
+
+menuBtn.addEventListener("click", () => {
+    menuOverlay.style.transform = "translatex(0)";
+});
+crossBtn.addEventListener("click", () => {
+    menuOverlay.style.transform = "translatex(100%)";
+});

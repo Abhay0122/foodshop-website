@@ -1,0 +1,392 @@
+@media only screen and (max-width: 600px) {
+
+    /*  */
+    nav {
+        min-height: 11vh;
+    }
+
+    .nav_left_side h1 {
+        font: 500 2.8vmax "pacifico";
+    }
+
+    .nav_middle_side ul {
+        display: none;
+    }
+
+    .nav_right_side button {
+        display: none;
+    }
+
+    .nav_right_side i {
+        font-size: 2.3vmax;
+    }
+
+    /* */
+
+    .menu-overlay {
+        padding: 25vw 10vw;
+    }
+
+    .menu-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-btn i {
+        font-size: 2.3vmax;
+    }
+
+    .menu-overlay h1 {
+        font: 500 5vmax "pacifico";
+        color: white;
+        margin: 2vmax 0;
+    }
+
+    .menu-overlay h1 span {
+        color: #fb5729;
+    }
+
+    .menu-overlay ul {
+        list-style: none;
+    }
+
+    .menu-overlay ul li {
+        margin: 4vmax 0;
+        font-size: 3.5vmax;
+        font-family: "montserrat";
+        color: white;
+    }
+
+    .menu-overlay i {
+        font-size: 6vmax;
+        position: absolute;
+        top: 5%;
+        right: 5%;
+    }
+
+    .menu-overlay button {
+        font: 500 2vmax "montserrat";
+        color: rgba(255, 255, 255, 0.697);
+        background-color: #fb5729;
+        padding: 2vh 4vw;
+        border: none;
+        border-bottom-left-radius: 18px;
+        border-top-right-radius: 18px;
+        cursor: pointer;
+        margin-top: 4vmax;
+    }
+
+    /*  */
+
+    /* page_1 */
+
+    .page_1 {
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pg_1_left {
+        padding: 25vw 10vw;
+        min-height: fit-content;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+
+    .pg_1_left-heading h1 {
+        font-size: 6vmax;
+    }
+
+    .pg_1_left-heading h1>span {
+        font-size: 6vmax;
+    }
+
+    .pg_1_left button {
+        padding: 2vh 8vw;
+        font: 500 2vmax "montserrat";
+    }
+
+    /*  */
+
+    /* pg_1_middle */
+
+    .pg_1_middle {
+        padding: 4vw;
+        min-height: fit-content;
+        width: 100vw;
+    }
+
+    .pg_1_middle img {
+        height: 210px;
+    }
+
+    /* pg_1_right */
+
+    .pg_1_right {
+        min-height: fit-content;
+        width: 100vw;
+        align-items: center;
+        padding: 10vw;
+    }
+
+    .pg_1_right_txt_1 h3 {
+        font: 600 3vmax "montserrat";
+    }
+
+    .pg_1_right_txt_1 i {
+        font-size: 3.5vmax;
+    }
+
+    .pg_1_right_txt_2 h3 {
+        font: 600 3vmax "montserrat";
+    }
+
+    .pg_1_right_txt_2 i {
+        font-size: 3.5vmax;
+    }
+
+    .pg_1_right_txt_3 h3 {
+        font: 600 3vmax "montserrat";
+    }
+
+    .pg_1_right_txt_3 img {
+        height: 3.5vmax;
+    }
+
+    /*  */
+
+    /* page_2 */
+
+    .page_2 {
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .page_2_left {
+        min-height: 50vh;
+        width: 100vw;
+    }
+
+    .page_2_right {
+        min-height: 50vh;
+        width: 100vw;
+        justify-content: center;
+    }
+
+
+    .page_2_right_content h2 {
+        font-size: 2.5vmax;
+    }
+
+    .page_2_right_content h1 {
+        font-size: 3vmax;
+    }
+
+    .page_2_right_content p {
+        width: 76%;
+        font-size: 1.7vmax;
+    }
+
+    .page_2_right_content button {
+        padding: 2vh 8vw;
+        font-size: 1.6vmax;
+    }
+
+    /* page_2-end */
+
+    /* page_3 */
+    .page_3_heading h1 {
+        font-size: 4vmax;
+    }
+
+    .page_3 {
+        min-height: 60vh;
+    }
+
+    #center {
+        min-height: 30vh;
+        width: 80vw;
+        position: absolute;
+        top: 60%;
+        left: 15%;
+        border-radius: 8px;
+        transform: translate(0, -60%);
+    }
+
+    .imagecontainer {
+        height: 30vh;
+        border-radius: 8px;
+    }
+
+    .text {
+        height: 50px;
+        width: 250px;
+    }
+
+    .text h1 {
+        font-size: 9vw;
+    }
+
+    /* page_3-end */
+
+    /* page4 */
+
+    .page_4 {
+        /* min-height: 80vh; */
+        flex-direction: column;
+    }
+
+    /* page_4_left */
+    .page_4_left {
+        min-height: fit-content;
+        width: 100vw;
+    }
+
+    .form input {
+        padding: 1vmax;
+        width: 35vmax;
+        font-size: 2vmax;
+    }
+
+    .form textarea {
+        padding: 1vmax;
+        background-color: transparent;
+    }
+
+    label {
+        font-size: 2vmax;
+    }
+
+    .form button {
+        padding: 2vh 8vw;
+        font: 500 2vmax "montserrat";
+        margin-top: 2vmax;
+    }
+
+    /* page_4_right */
+    .page_4_right {
+        min-height: fit-content;
+        width: 100vw;
+    }
+
+    .pg-4-heading {
+        font-size: 3.8vmax;
+    }
+
+    .page_4_right p {
+        font-size: 2.6vmax;
+    }
+
+    .phone-wrapper {
+        margin-bottom: 1.8vmax;
+    }
+
+    .phone-wrapper h3 {
+        font-size: 2.6vmax;
+        margin-bottom: 1vmax;
+    }
+
+    .phone-wrapper ul li {
+        font-size: 1.8vmax;
+    }
+
+    .phone-wrapper ul {
+        padding: 0 2.2vmax;
+    }
+
+    .email-wrapper h3 {
+        font-size: 2.6vmax;
+    }
+
+    .email-wrapper span {
+        font-size: 1.8vmax;
+    }
+
+    .page_4_right button {
+        padding: 2vh 10vw;
+        font-size: 2vmax;
+        margin-bottom: 4vmax;
+    }
+
+
+    /* footer */
+
+    footer {
+        padding: 0 7vw;
+    }
+
+    .footer_content_wrapper {
+        min-height: fit-content;
+        flex-direction: column;
+    }
+
+
+    .footer-left {
+        margin: 2vmax 0;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .footer-middle {
+        min-height: fit-content;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .footer-mid-one h2 {
+        font-size: 3vmax;
+    }
+
+    .footer-mid-one ul li {
+        font-size: 1.8vmax;
+    }
+
+    /* .footer-mid-two  */
+
+    .footer-mid-two {
+        margin: 0 2.7vmax;
+    }
+
+    .footer-mid-two h2 {
+        font-size: 3vmax;
+    }
+
+    .footer-mid-two ul li {
+        font-size: 1.8vmax;
+    }
+
+    /* .footer-mid-three  */
+
+    .footer-mid-three {
+        margin: 2vmax 0;
+    }
+
+    .footer-mid-three h2 {
+        font-size: 3vmax;
+    }
+
+    .footer-mid-three ul li {
+        font-size: 1.8vmax;
+    }
+
+    /* footer-right */
+
+    .footer-right {
+        min-height: fit-content;
+        width: 100%;
+    }
+
+    .footer-right i {
+        font-size: 3vmax;
+        margin: 0 2vmax;
+    }
+
+
+
+
+}
